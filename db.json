@@ -1,0 +1,84 @@
+{
+  "Departamentos": [
+    {
+      "nomDepartamento": "asd",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nomDepartamento": "Cundinamarca"
+    },
+    {
+      "nomDepartamento": "new departamento modif",
+      "id": 6
+    },
+    {
+      "nomDepartamento": "depDelme1",
+      "id": 7
+    },
+    {
+      "nomDepartamento": "asdads",
+      "id": 8
+    },
+    {
+      "nomDepartamento": "depDelme12n",
+      "id": 9
+    },
+    {
+      "nomDepartamento": "depDelme12n2",
+      "id": 10
+    }
+  ],
+  "Ciudades": [
+    {
+      "id": 1,
+      "nomCiudad": "Bucaramanga",
+      "DepartamentosId": 1,
+      "imagen": "https://colombia.com/bucaramanga.jpg",
+      "coordenadas": {
+        "lat": 4,
+        "lon": -72
+      }
+    },
+    {
+      "id": 2,
+      "nomCiudad": "Barrancabermeja",
+      "DepartamentosId": 1,
+      "imagen": "https://colombia.com/barranca.jpg",
+      "coordenadas": {
+        "lat": 4,
+        "lon": -72
+      }
+    },
+    {
+      "nomCiudad": "ciuDelme2",
+      "DepartamentosId": 7,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "nomCiudad": "Cajicá",
+      "DepartamentosId": 2,
+      "imagen": "https://colombia.com/cajica.jpg",
+      "coordenadas": {
+        "lat": 4,
+        "lon": -72
+      }
+    },
+    {
+      "nomCiudad": "ciudadFake",
+      "DepartamentosId": 2,
+      "id": 5
+    },
+    {
+      "nomCiudad": "ciuDelme1",
+      "DepartamentosId": 7,
+      "id": 6
+    },
+    {
+      "nomCiudad": "ciuDelme2",
+      "DepartamentosId": 7,
+      "id": 7
+    }
+  ]
+}

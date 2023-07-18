@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulacro</title>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet" />
+
+    <!-- MDB -->
+    <script defer type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+
+    <script defer type="module" src="./app.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+
+    <body data-mdb-theme="light" class="">
+
+         <div class="container mt-5 bg-info rounded-4">
+            <h1 class="text-center text-white border-3  fw-bold py-3 ">Campus Cities Manager</h1>
+        </div>
+
+        <!--
+
+        <div class="container mt-5 shadow-4-strong border-3 rounded-4 ">
+
+            <div class="row mt-4 bg-info justify-content-center">
+                <h2 class="text-center">Departamentos</h2>
+                <div class="col-12  ">
+
+                    <table class="table align-middle mb-0 bg-white rounded-4 mb-3">
+                        <thead class="">
+                          <tr>
+                            <th>id</th>
+                            <th>Nombre</th>
+                            <th>Acciones</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">1</p>
+                                  </div>
+                                </div>                                
+                            </td>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <img
+                                        src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                                        alt=""
+                                        style="width: 45px; height: 45px"
+                                        class="rounded-circle"
+                                        />
+                                    <div class="ms-3">
+                                        <p class="fw-normal mb-1">Departamento X</p>
+                                        <p class="text-muted mb-0">27°</p>
+                                    </div>
+                                  </div>
+                              
+                            </td>
+                            <td>
+                              <div>
+                                <button type="button" class="btn btn-outline-warning" data-mdb-ripple-color="dark">Warning</button>
+                                <button type="button" class="btn btn-outline-danger" data-mdb-ripple-color="dark">Warning</button>
+                              </div>
+                            </td>                            
+                          </tr>
+                          <tr>
+                            <td>
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">1</p>
+                                  </div>
+                                </div>                                
+                            </td>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <img
+                                        src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                                        alt=""
+                                        style="width: 45px; height: 45px"
+                                        class="rounded-circle"
+                                        />
+                                    <div class="ms-3">
+                                        <p class="fw-normal mb-1">Departamento X</p>
+                                        <p class="text-muted mb-0">27°</p>
+                                    </div>
+                                  </div>
+                              
+                            </td>
+                            <td>
+                              <div>
+                                <button type="button" class="btn btn-outline-warning" data-mdb-ripple-color="dark">Warning</button>
+                                <button type="button" class="btn btn-outline-danger" data-mdb-ripple-color="dark">Warning</button>
+                              </div>
+                            </td>                            
+                          </tr>
+                          <tr>
+                            <td>
+                                <div class="ms-3">
+                                    <p class="fw-bold mb-1">1</p>
+                                  </div>
+                                </div>                                
+                            </td>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <img
+                                        src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                                        alt=""
+                                        style="width: 45px; height: 45px"
+                                        class="rounded-circle"
+                                        />
+                                    <div class="ms-3">
+                                        <p class="fw-normal mb-1">Departamento X</p>
+                                        <p class="text-muted mb-0">27°</p>
+                                    </div>
+                                  </div>
+                              
+                            </td>
+                            <td>
+                              <div>
+                                <button type="button" class="btn btn-outline-warning" data-mdb-ripple-color="dark">Warning</button>
+                                <button type="button" class="btn btn-outline-danger" data-mdb-ripple-color="dark">Warning</button>
+                              </div>
+                            </td>                            
+                          </tr>
+                        </tbody>
+                      </table>
+
+
+
+
+                    
+                </div>
+            </div>
+
+        </div> -->
+
+
+
+
+
+        <!-- <div style="height: 700px;">
+
+        </div> -->
+
+
+
+
+        <div class="m-5 pt-5 ">
+            <!-- <h1 class="fs-1 fw-bold text-primary text-center ">
+                Campus Cities Manager
+            </h1> -->
+            <div class="m-5 p-5 ">
+                <h2 class="fs-2 fw-bold text-info text-center ">
+                    Departamentos
+                </h2>
+                <div class="container mt-5 ">
+                    <div class="row justify-content-center">
+                        <div class="col-12 bg-transparent">
+                            <div class="bg-white p-4 shadow-2-strong rounded-3">
+                                <h4 class="fs-4 fw-bold text-info  text-center mb-3">
+                                    Agregar Departamento
+                                </h4>
+                                <form id="formAddDepartment">
+                                    <div class="mb-3">
+                                        <label class="form-label text-black fw-bold">Nombre del departamento</label>
+                                        <input type="text" class="form-control" id="nomDepartamento" name="nomDepartamento" required />
+                                    </div>
+                                    <input type="submit" class="btn btn-info" data-accion="Registrar"
+                                        value="Registrar" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container mt-5 ">
+                    <div class="row justify-content-center">
+                        <div class="col-12 bg-transparent">
+                            <div class="bg-white table-responsive p-4 shadow-2-strong rounded-3">
+                                <h4 class="fs-4 fw-bold text-info  text-center">
+                                    Listado de Departamentos
+                                </h4>
+                                <table class="table table-white mt-5">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Departamentos</th>
+                                            <th>Opciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbodyDepartamentos"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalModificar" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title text-primary">Modificar Departamento</h4>
+                                <button type="button" class="btn-close" data-mdb-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="formActualizar">
+                                    <div class="mb-3">
+                                        <label class="form-label text-secondary">Nombre del departamento</label>
+                                        <input type="text" class="form-control" id="nomDepartamento" name="nomDepartamento" required />
+                                    </div>
+                                    <input type="submit" class="btn btn-info" data-accion="Actualizar"
+                                        value="Actualizar" />
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="m-5 p-5 ">
+                <h2 class="fs-2 fw-bold text-info text-center">
+                    Ciudades
+                </h2>
+                <div class="container mt-5">
+                    <div class="row justify-content-center">
+                        <div class="col-12 bg-transparent">
+                            <div class="bg-info p-4 shadow-2-strong rounded-2">
+                                <h4 class="fs-4 fw-bold text-white text-center mb-3">
+                                    Agregar ciudad
+                                </h4>
+                                <form id="formCiudades">
+                                    <div class="mb-3">
+                                        <label class="form-label text-light">Nombre de la ciudad</label>
+                                        <input type="text" class="form-control" id="nomCiudad" name="nomCiudad" required />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label text-light">Seleccionar Departamento</label>
+                                        <select class="form-select" id="DepartamentosId" name="DepartamentosId" required>
+                                            <option value="" disabled selected>Departamento</option>
+                                        </select>
+                                    </div>
+                                    <input type="submit" class="btn btn-info" data-accion="RegistrarCiudad"
+                                        value="Registrar" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container mt-5">
+                    <div class="row justify-content-center">
+                        <div class="col-12 bg-transparent">
+                            <div class="bg-info table-responsive p-4 rounded rounded-4">
+                                <h4 class="fs-4 fw-bold text-white text-uppercase text-center">
+                                    Listado de Ciudades
+                                </h4>
+                                <table class="table bg-white mt-5 rounded-3">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Ciudad</th>
+                                            <th>Departamento</th>
+                                            <th>Opciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tbodyCiudades"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- MODALES -->
+
+                <div class="modal fade" id="modalActualizarCiudad" tabindex="-1" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title text-primary">Actualizar Ciudad</h4>
+                                <button type="button" class="btn-close" data-mdb-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="formActualizarCiudad">
+                                    <div class="mb-3">
+                                        <label class="form-label text-secondary">Nombre de la ciudad</label>
+                                        <input type="text" class="form-control" id="nomCiudad" name="nomCiudad" required />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label text-secondary">Seleccionar ruta</label>
+                                        <select class="form-select" id="departamentoIdCiudad" name="DepartamentosId" required>
+                                            <option value="" disabled selected>Ruta</option>
+                                        </select>
+                                    </div>
+                                    <input type="submit" class="btn btn-info" data-accion="ActualizarCiudad"
+                                        value="Actualizar" />
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- test -->
+                <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">...</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+                
+            </div>
+        </div>
+
+    </body>
+
+</html>
